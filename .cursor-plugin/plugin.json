@@ -1,0 +1,21 @@
+{
+  "name": "mavens-mcp",
+  "displayName": "MAVENS.mcp",
+  "version": "1.0.0",
+  "description": "Review connected software projects and read findings with MAVENS.",
+  "author": {
+    "name": "MAVENS GmbH",
+    "email": "hamburg@mavens.de"
+  },
+  "homepage": "https://mavens.it/mcp/",
+  "repository": "https://github.com/franzfarian/mavens-mcp-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "security",
+    "code-review"
+  ],
+  "logo": "assets/mavens-logo.png",
+  "category": "developer-tools",
+  "mcpServers": "./mcp.json"
+}

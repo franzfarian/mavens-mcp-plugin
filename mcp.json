@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "mavens": {
+      "url": "https://mavens.it/api/mcp"
+    }
+  }
+}
