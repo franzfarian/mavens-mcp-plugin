@@ -36,3 +36,25 @@ Copy this plugin folder under `~/.cursor/plugins/local/mavens-mcp`, reload Curso
 ## License
 
 The plugin configuration and documentation are MIT licensed. The MAVENS name and logo remain trademarks of MAVENS GmbH. The hosted MAVENS service is governed by its service terms.
+
+## VS Code
+
+Run **MCP: Add Server** from the Command Palette, choose **HTTP**, and enter `https://mavens.it/api/mcp`. Name it `MAVENS.mcp` and complete the MAVENS OAuth sign-in.
+
+Equivalent `.vscode/mcp.json` configuration:
+
+```json
+{"servers":{"MAVENS.mcp":{"type":"http","url":"https://mavens.it/api/mcp"}}}
+```
+
+## Replit
+
+[Add MAVENS.mcp to Replit](https://replit.com/integrations?mcp=eyJkaXNwbGF5TmFtZSI6Ik1BVkVOUy5tY3AiLCJiYXNlVXJsIjoiaHR0cHM6Ly9tYXZlbnMuaXQvYXBpL21jcCJ9). Complete OAuth when prompted. This link adds a personal connection; public catalog availability is managed separately by Replit.
+
+## v0
+
+In v0's MCP integrations, add a custom server with `https://mavens.it/api/mcp` and complete OAuth. The connection provides tools to the v0 agent; it does not add the MAVENS integration to your generated application's runtime.
+
+## Registry metadata
+
+`server.json` describes the hosted server for the official MCP Registry. This repository contains public connection configuration and documentation; the hosted service's application source is not distributed here. Registry metadata is published manually from `main` using GitHub OIDC, with no stored publishing secret. A registry publication does not imply approval by every downstream catalog.

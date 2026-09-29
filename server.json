@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.franzfarian/mavens-mcp",
+  "title": "MAVENS.mcp",
+  "description": "Review connected software projects, submit local findings and read reports with explicit approval.",
+  "version": "0.2.4",
+  "websiteUrl": "https://mavens.it/mcp/",
+  "icons": [
+    {
+      "src": "https://mavens.it/images/mavens-logo-white-blackbackground.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mavens.it/api/mcp"
+    }
+  ]
+}
